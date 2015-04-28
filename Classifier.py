@@ -33,7 +33,7 @@ class Classifier:
 # classifies the data
 # @param data: vector to be classified
     def classify(self, data):
-        return 'Iris-setosa'
+        return self.data[0][4]
 
 # calculates the accuracy of the data
 # @return float containing the accuracy
